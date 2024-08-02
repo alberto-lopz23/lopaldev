@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>lopal games</title>
   <link href='/style.css' rel='stylesheet'>
+  <script src="serviceWorker.js"></script>
+  <script defer type="text/javascript" src="/main.js"></script>
 </head>
 <body>
   <div class="nombreLopal">
@@ -49,9 +51,12 @@
               <span>10</span>
                monedas
             </p>
-            <button>
-              play
-            </button>
+            <a href="/games/arkanoid-game-main/index.html">
+              <button>
+                play
+              </button>
+
+            </a>
           </div>
         </div>
 
@@ -64,9 +69,12 @@
               <span>10</span>
                monedas
             </p>
-            <button>
-              play
-            </button>
+            <a href="/games/pacman-dev-main/index.html">
+              <button>
+                play
+              </button>
+
+            </a>
           </div>
         </div>
 
@@ -79,9 +87,12 @@
               <span>10</span>
                monedas
             </p>
-            <button>
-              play
-            </button>
+            <a href="#">
+              <button>
+                play
+              </button>
+
+            </a>
           </div>
         </div>
 
@@ -94,9 +105,12 @@
               <span>10</span>
                monedas
             </p>
-            <button>
-              play
-            </button>
+            <a href="#">
+              <button>
+                play
+              </button>
+
+            </a>
           </div>
         </div>
 
@@ -109,9 +123,12 @@
               <span>10</span>
                monedas
             </p>
-            <button>
-              play
-            </button>
+            <a href="#">
+              <button>
+                play
+              </button>
+
+            </a>
           </div>
         </div>
 
@@ -124,9 +141,12 @@
               <span>10</span>
                monedas
             </p>
-            <button>
-              play
-            </button>
+            <a href="#">
+              <button>
+                play
+              </button>
+
+            </a>
           </div>
         </div>
 
@@ -140,6 +160,9 @@
     </footer>
 
   </section>
-  <script defer type="text/javascript" src="/main.js"></script>
+
+  <div id="coin-count">Coins: 0</div>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+
 </body>
 </html>

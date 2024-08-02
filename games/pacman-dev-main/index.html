@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pacman lopal.dev</title>
+  <link href='/games/pacman-dev-main/style.css' rel='stylesheet'>
+</head>
+<body>
+  <canvas id="canvas" width="500" height="500"></canvas>
+    <div style="display:none;">
+        <img id="animation" src="/games/pacman-dev-main/images/animations.gif" width="140" height="20">
+        <img id="ghosts" src="/games/pacman-dev-main/images/ghost.png" width="140" height="20">
+    </div>
+    <div>
+      <a href="/index.html">
+  
+        <button>
+          back
+        </button>
+      </a>
+      <button id="start">Start</button>
+      <p>Score: <span id="score-value">0</span></p>
+      
+    </div>
+    <script src="/games/pacman-dev-main/ghost.js"></script>
+    <script src="/games/pacman-dev-main/pacman.js"></script>
+    <script src="/games/pacman-dev-main/main.js"></script>
+  <script defer type="text/javascript" src="/main.js"></script>
+</body>
+</html>
